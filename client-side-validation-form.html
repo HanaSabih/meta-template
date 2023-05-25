@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="Post">
+        
+            <label for="user">Username:</label><br>
+            <input type="text" id="user" name="user" required minlength="3" maxlength="12" ><br>
+        
+            
+            <label for="pass">Password:</label><br>
+            <input type="password" id="pass" name="pass" required minlength="5"><br>
+        
+            <input type="submit" value="Submit">
+
+            <style>
+                input:focus:invalid{
+                    border: 2px solid red;
+                }
+            </style>
+        
+        
+    </form>
+</body>
+</html>
